@@ -24,4 +24,5 @@ public class c2_ReverseString {
 }
 
 //your class is orange that means you didnt add to git
-//if it is green you add it but you didnt commit it
+//if it is green you add it to git  but you didnt commit it
+//blue measn you commit it but you made changes after commit
