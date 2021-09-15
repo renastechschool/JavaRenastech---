@@ -42,6 +42,7 @@ public class c3_arrays2 {
         System.out.println(numbers[0]);
         System.out.println(numbers[2]);
 
+        //create a condition that will check list of array and it will print even numbers from the list
 
 
 
