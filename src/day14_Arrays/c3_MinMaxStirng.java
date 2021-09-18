@@ -25,12 +25,12 @@ public class c3_MinMaxStirng {
         //lets assume first word has max length
         //lets assume first word has min length
 
-        int maxLength=names[1].length();
-        int minLength= names[1].length();
+        int maxLength=names[0].length();
+        int minLength= names[0].length();
 
         //lets assume largest and shorttest string
-        String longestName= names[1];
-        String shortestName= names[1];
+        String longestName= names[0];
+        String shortestName= names[0];
 
 
         for (int i =0 ; i < names.length ; i++){
