@@ -1,6 +1,6 @@
-package MyLibrary;
+package MyUtil;
 
-public class Library {
+public class util {
 
     //we will create our own reverse library method
     //this method will accept a string
