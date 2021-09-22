@@ -1,6 +1,5 @@
 package day16_Methods;
 
-
 import MyUtil.util;
 
 public class c6_LibraryTesting {
@@ -10,6 +9,5 @@ public class c6_LibraryTesting {
         util.printJava10();
         util.reverseString("Hello world");
 
-        //Arrays
     }
 }
