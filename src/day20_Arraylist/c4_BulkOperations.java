@@ -56,8 +56,8 @@ public class c4_BulkOperations {
         list5.addAll(Arrays.asList(1,1,2,2,3,4,5,5,6,7,10));
         System.out.println("list5 = " + list5);
 
-        list5.retainAll(Arrays.asList(5));
-        System.out.println(list5);//[5, 5]
+        list5.retainAll(Arrays.asList(5,3));
+        System.out.println(list5);//[3,5, 5]
 
 
     }
