@@ -60,6 +60,11 @@ public class Shoe {
     }
 
 
+    // toString(): the method gets executed automatically whenever we pass the object name into the print statement
+        public String toString(){
+            return  brand+"/"+color+"/"+size;
+        }
+
 
 
 
