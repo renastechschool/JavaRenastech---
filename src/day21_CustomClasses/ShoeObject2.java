@@ -26,6 +26,8 @@ public class ShoeObject2 {
         shoe2.setShoeInfo("nike" ,7 ,"pink");
         shoe2.getShoeInfo();
 
+        System.out.println(shoe1);//hashcode
+
         String [] shoelist={shoe1.brand, shoe2.brand};
         //since shoe.brand returns string i can store them in string array
 
@@ -38,7 +40,7 @@ public class ShoeObject2 {
         shoeArrayList.add(shoe1);
         shoeArrayList.add(shoe2);
 
-        //System.out.println(shoeArrayList); to be able to see an result for this
+        System.out.println(shoeArrayList); //to be able to see an result for this
         //your custom class needs to have a toString
 
     }
