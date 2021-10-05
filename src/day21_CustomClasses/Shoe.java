@@ -11,7 +11,7 @@ package day21_CustomClasses;
 //ArrayList<>  list     =  new ArrayList<>();
 //  Class     refName           OBJECT
 
-// Shoe   nike=new Shoe();
+// Shoe  nike=new Shoe();
 
 //class : it is where you actually implement your code . you store variables methods inside of your class
 //this is where you create an object from . Class will explain behaviour of objects
@@ -39,7 +39,7 @@ public class Shoe {
         //needs to be decleared outside of methods or blocks
 
     String brand; //instance variable
-    int size;//inst
+    public int size;//inst
     String color;//inst
 
     //static String brand2; //static variable
@@ -61,9 +61,10 @@ public class Shoe {
 
 
     // toString(): the method gets executed automatically whenever we pass the object name into the print statement
-        public String toString(){
+    public String toString(){
+        //tostring will present what each object means
             return  brand+"/"+color+"/"+size;
-        }
+    }
 
 
 
