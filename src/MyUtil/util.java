@@ -47,4 +47,8 @@ public class util {
 
         System.out.println(Arrays.toString(descArr));
     }
+
+    public static void stars(){
+        System.out.println("*********************************");
+    }
 }
