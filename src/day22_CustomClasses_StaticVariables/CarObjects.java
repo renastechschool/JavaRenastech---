@@ -1,5 +1,8 @@
 package day22_CustomClasses_StaticVariables;
 
+import MyUtil.util;
+import day22_CustomClasses_StaticVariables.Car; // no need to import car class beacuse it is in same packeage as this class
+
 public class CarObjects {
 
     public static void main(String[] args) {
@@ -13,9 +16,14 @@ public class CarObjects {
         //ishasengine is a static method no need to craete an object to call it
         //you can call by using classname
 
+        util.stars();
+        util.hello();
+
 
         //to print the object from class i need to create tostring method under car
         System.out.println(car1);
+        //to explain java what object means for class
+        //we will need to create a toString to identify what is objets measn when we call them
 
     }
 
