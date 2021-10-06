@@ -26,4 +26,9 @@ public class Animals {
     public void getType(){
         System.out.println(name+ " is a " + type);
     }
+
+    //to print our objets we will need to create a toString method
+    public String toString(){
+        return name + " - " + type + " - "+ age +  "-" + color;
+    }
 }
