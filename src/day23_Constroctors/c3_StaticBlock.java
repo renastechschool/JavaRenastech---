@@ -42,4 +42,7 @@ public class c3_StaticBlock {
         //this static block will get executed before everything
     }
 
+    //instance block : will be executed for any new object
+    //static block : will be executed once before everything
+
 }
