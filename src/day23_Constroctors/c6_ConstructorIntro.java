@@ -2,8 +2,10 @@ package day23_Constroctors;
 
 public class c6_ConstructorIntro {
     //constructor is a special method which has to have class name as a method name
-    //if you dont create an contructor java will create one for you
 
+
+    //we create objects from class by using constructor methods
+    //if you dont create an contructor java will create one default constroctor for you
 
     //constructor needs to have same name that class  has
 
