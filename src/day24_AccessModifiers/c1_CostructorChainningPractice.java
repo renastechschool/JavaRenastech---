@@ -36,7 +36,7 @@ public class c1_CostructorChainningPractice {
     public c1_CostructorChainningPractice(boolean b ,double d){
         //this("hello");
         ////            5. Contructor cannot call itself or conatin itself
-        //this(true,5.5);
+       // this(true,5.5);
         System.out.println("constr with double and boolean ");
     }
 
