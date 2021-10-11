@@ -32,7 +32,7 @@ public class c2_printOrder {
 }
 
 
-//1.no matter what if you run your class static block will run before everything
+//1.no matter what if you run your class static block will run before everything and only once
 //2.main method will run in order of line that passed
 
 //each new object will run instance block and constructor together
