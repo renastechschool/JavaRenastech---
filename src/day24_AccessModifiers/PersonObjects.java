@@ -14,5 +14,8 @@ public class PersonObjects {
 
         person2.setID(32423423442234l);
         System.out.println("Meral id is " + person2.getID());
+
+        person2.test2();
+        //person2.test1(); test1 is priavate method
     }
 }

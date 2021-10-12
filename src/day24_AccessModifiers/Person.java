@@ -50,4 +50,15 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+
+
+
+    private void test1(){
+        System.out.println("Priavate test");
+    }
+
+    public void test2(){
+        System.out.println("test2");
+        test1();
+    }
 }
