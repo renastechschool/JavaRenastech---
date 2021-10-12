@@ -18,7 +18,7 @@ Therefore, it is also known as data hiding.
 
 To achieve encapsulation in Java −
 1.Declare the variables of a class as private.
-2.Provide public setter and getter methods to modify and view the variables values.
+2.Provide public setter and getter methods to modify and view the variables values from outside of class.
 
      */
 
