@@ -47,7 +47,13 @@ public class Animal {
         System.out.println(name + " is growing ");
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "{" +
+                "name='" + name + '\'' +
+                "-- age=" + age +
+                "-- weight=" + weight +
+                "-- color='" + color + '\'' +
+                '}';
+    }
 }
