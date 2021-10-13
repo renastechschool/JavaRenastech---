@@ -12,5 +12,10 @@ public class EmployeeObjects {
         sdet1.testing();
         sdet1.foundBug();
         developer1.fixingBug();
+
+        SM sm1=new SM("recep" , " SM " , 234234423423l);
+        //sm1.name=
+        System.out.println(sm1);
+        sm1.creatingMeetings();
     }
 }
