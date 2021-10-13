@@ -36,6 +36,9 @@ public class c2_CapitalOneObjects {
         obj2.avaliableBalance();
         System.out.println(obj2);
 
+        obj2.deposit(1000);
+        System.out.println(obj2);
+
 
     }
 }
