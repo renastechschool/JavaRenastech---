@@ -9,6 +9,7 @@ public class SDET extends Employee{
     //jobtitle inherited
     //salary inherited
     //age inherited
+    //toString inherited
 
     public SDET(String name , String jobTitle , int age , double salary ,long jobId){
         this.age=age;
