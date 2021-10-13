@@ -30,5 +30,24 @@ public class AnimalObject {
         //does bird class has eat method  == yes it has
         //it is taking from parent which i animal
         //inheritence will help child class to have whatever you have in the parent.
+
+
+        Fox fox1=new Fox();
+        fox1.name = "fox1";
+        fox1.color="Brown";
+        fox1.age=3;
+        fox1.weight=20;
+
+        fox1.eat("cheese");
+        fox1.grow();
+        fox1.move();
+        fox1.smileFox();
+
+       // bird1.smileFox();
+
+        System.out.println(bird1);
+        System.out.println(fox1);
+        System.out.println(animal1);
+        //....
     }
 }
