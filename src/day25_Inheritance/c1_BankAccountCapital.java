@@ -36,10 +36,10 @@ public class c1_BankAccountCapital {
     }
 
     //encapsulate all the private data
-    public void setAccountHolder(String firstName , String lastName){
-        //since we set account holder name in the constructor no need create setter for accountholder
-        this.accountHolder=firstName + " " + lastName;
-    }
+//    public void setAccountHolder(String firstName , String lastName){
+//        //since we set account holder name in the constructor no need create setter for accountholder
+//        this.accountHolder=firstName + " " + lastName;
+//    }
     public String getAccountHolder(){
         return accountHolder;
     }
@@ -73,6 +73,7 @@ public class c1_BankAccountCapital {
 
     public void deposit(double money){//balance + money
         System.out.println("before deposit getBalance() = " + getBalance());
+        System.out.println("Depositing "+ money);
         //balance = balance + money
         //balance += money;
         setBalance(balance+money);
@@ -82,6 +83,7 @@ public class c1_BankAccountCapital {
     //
     public void withdraw(double money){
         System.out.println("before withdraw getBalance() = " + getBalance());
+        System.out.println("Withdraw "+ money);
         //balance = balance - money
         setBalance(balance-money);
     }
