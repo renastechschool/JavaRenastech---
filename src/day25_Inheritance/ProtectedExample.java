@@ -6,5 +6,5 @@ public class ProtectedExample {
     public int publicNumber;
     private int priaveNumber;
     int defaultVrble;
-    
+
 }
