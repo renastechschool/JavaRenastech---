@@ -26,6 +26,7 @@ public class Car {
         return brand+" - " + year;
     }
 
+    @Override
     public  String toString(){
         return brand + " / " + year + " / "+ price + " / "+ color;
     }
