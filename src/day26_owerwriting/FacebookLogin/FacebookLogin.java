@@ -38,6 +38,23 @@ public class FacebookLogin {
         this.password = password;
     }
 
+    //    //methods : openBrowser , goToUrl , passingCredentials , closebrowser
+    public void openBrowser(){
+        System.out.println("Browser Started");
+    }
+    public void goToUrl(){
+        System.out.println("We are on facebook page ");
+    }
+    public void passingCredentials(String username , String password){
+        setUsername(username);
+        setPassword(password);
+
+    }
+
+    public void closeBrowser(){
+        System.out.println("Browser is closed");
+    }
+
 
 
 }
