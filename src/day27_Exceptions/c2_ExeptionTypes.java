@@ -1,5 +1,8 @@
 package day27_Exceptions;
 
+import java.io.File;
+import java.io.FileInputStream;
+
 public class c2_ExeptionTypes {
     //Exceptions: unexpected or unwanted events
 //
@@ -44,6 +47,10 @@ public class c2_ExeptionTypes {
         //Thread.sleep(5000); //InterruptedException;// 3 sn
         //this is cheked exceptions because it gives us warning message before we run the code
         System.out.println("hello ");
+
+        File  file1=new File("Hello.txt");
+       // FileInputStream fileInputStream=new FileInputStream(file1);//java.io.FileNotFoundException;
+        //chekecd exception
 
     }
 }
