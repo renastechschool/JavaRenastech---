@@ -41,11 +41,13 @@ public class c3_ExceptionHandling {
         while (number < 60){
             System.out.println(number );
 
+
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
 
             number ++;
         }
