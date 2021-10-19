@@ -22,3 +22,12 @@ public class c7_throwKeyword {
         }
     }
 }
+
+//in the future you may need to handle some of exceptions such as
+//waaiting  realated
+//sql related
+//file related
+
+//100 string check if they have index number 10
+//give me result whihc ones doesnt have
+//string doesnt have it
