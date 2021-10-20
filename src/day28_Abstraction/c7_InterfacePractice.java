@@ -27,9 +27,12 @@ public interface c7_InterfacePractice {
 
     public static void main(String[] args) {
         System.out.println(number);
+
 //        number = 25 ;  final variables can not be reassigned
         System.out.println(number2);
 //        number2=0;  final variables can not be reassigned
+
+
     }
 
 }
