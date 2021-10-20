@@ -32,3 +32,9 @@ public abstract class Shape {
     abstract void shapeArea();  //abstract methods can not have a body
     abstract void shapeName();  //this abstract methods are meant to be owerriten in the child classes
 }
+
+
+//to steps to achive abstraction by using abstract class
+//create an abstract class and abstract method (to be able to hide implemantation of methods )
+//then extend this class to child classes (this is called inheritence)
+//override the abstract methods
