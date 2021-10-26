@@ -1,5 +1,7 @@
 package day29_Polymorphism.abstractionPracticee;
 
+import MyUtil.util;
+
 public class PhoneObjects {
 
     public static void main(String[] args) {
@@ -15,6 +17,16 @@ public class PhoneObjects {
         obj1.downloadApp();
 
         obj1.immessage(314324234);
+
+        util.stars();
+
+        Samsung obj2=new Samsung("samsung s13" , 1100 );
+        System.out.println(obj2);
+        obj2.calling(3123123123l);
+        obj2.texting(234324234);
+        obj2.downloadApp();
+        obj2.helloSamsung();
+
 
     }
 }
