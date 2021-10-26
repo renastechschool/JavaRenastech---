@@ -24,7 +24,7 @@ public class AnimalObjects {
         animal2.animalMethod();//result comes from animal
         //animal2.swimming() method comes from fish cant be used animal object
 
-
+        ///create objects for fox fish and animal
 
     }
 }
