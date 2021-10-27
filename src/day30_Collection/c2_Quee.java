@@ -1,5 +1,8 @@
 package day30_Collection;
 
+import MyUtil.util;
+
+import java.util.ArrayDeque;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -34,6 +37,23 @@ public class c2_Quee {
         Integer number=numbers.poll(); // no index in quee it is going to pool first in number (FIFO)
         System.out.println("number = " + number);
         System.out.println(numbers);
+
+        util.stars();
+
+        Queue<Integer> numbers2=new ArrayDeque<>();//FIFO // no sort logic
+
+        numbers2.add(20);
+        numbers2.add(20);
+        numbers2.add(1);
+        numbers2.add(11);
+        numbers2.add(200);
+        numbers2.add(15);
+        numbers2.add(3);
+
+        System.out.println(numbers2);//[20, 20, 1, 11, 200, 15, 3]
+        Integer number2=numbers2.poll();
+        System.out.println("number2 = " + number2);
+        System.out.println(numbers2);
 
 
     }
